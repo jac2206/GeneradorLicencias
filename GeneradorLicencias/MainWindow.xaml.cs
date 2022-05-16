@@ -36,7 +36,7 @@ namespace GeneradorLicencias
 
 
                             //jac
-
+                            //ujsdfsds
                 if (trialCheck.IsChecked == true)
                 {
                     Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
