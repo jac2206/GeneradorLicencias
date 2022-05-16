@@ -34,26 +34,13 @@ namespace GeneradorLicencias
             try
             {
 
-                //List<string> strArray = new List<string>();
-                //NetworkInterface[] tarjetasRed = NetworkInterface.GetAllNetworkInterfaces();
-                
-                //foreach(NetworkInterface nic in tarjetasRed)
-                //{
-                //    if(nic.NetworkInterfaceType == NetworkInterfaceType.Ethernet)
-                //    {
-                //        strArray.Add(nic.GetPhysicalAddress().ToString());
-                //    }
 
-                //}
-
-                //string mac = strArray[0];
 
 
                 if (trialCheck.IsChecked == true)
                 {
                     Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 
-                    //DateTime? fechaCalendario = valorCalendario.SelectedDate;
                     string fechaActual = valorCalendario.SelectedDate.ToString();
                     DateTime fecha = Convert.ToDateTime(fechaActual);
 
