@@ -35,7 +35,7 @@ namespace GeneradorLicencias
             {
 
 
-
+                            //jac
 
                 if (trialCheck.IsChecked == true)
                 {
